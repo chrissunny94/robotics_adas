@@ -27,11 +27,12 @@ This repository highlights my projects and skills across different domains of ro
 
 - **[ros-devcontainer-vscode](https://github.com/chrissunny94/ros-devcontainer-vscode)**  
   Pre-configured **ROS development environment** using VSCode and Docker.  
-  - Browser-accessible X11 server for Gazebo, RViz, RQT (Windows/Mac compatible).  
-  - Tasks for building packages (`catkin_make`), running `roscore`, and launching RViz.  
-  - Preconfigured **C++, Python, XML code completion** for ROS development.  
+  - Browser-accessible X11 for Gazebo, RViz, and RQT (Windows/Mac compatible).  
+  - Tasks for building ROS packages, running `roscore`, and launching RViz.  
+  - Preconfigured **C++, Python, XML code completion**.  
   - Includes simulation environments: Flatland, TurtleBot3, ARIAC, Virtual RobotX, UUV.  
   - Optional WebIDE (code-server) for cloud-based ROS development.
+
 
 
 ---
