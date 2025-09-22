@@ -92,6 +92,24 @@ This repository highlights my projects and skills across different domains of ro
   - Demonstrates **motor control, ROS integration, and autonomous startup scripts**.  
   - Ideal for learning embedded robotics and actuator control in real-world robotic platforms.
 
+- **[URC2017](https://github.com/chrissunny94/URC2017)**  
+  Rover developed for the **University Rover Challenge 2017** to simulate Mars tasks.  
+  - ROS-based control system for autonomous navigation and task execution.  
+  - Manipulator arm for sample collection and task handling.  
+  - Computer vision for object detection and distance estimation.  
+  - Obstacle avoidance with custom ultrasonic sensors.  
+  - Wireless communication for remote operation and monitoring.
+
+
+## IOS , Android and Webdevelopment 
+
+- **[t265_json](https://github.com/chrissunny94/t265_json)**  
+  Python scripts to send **Intel RealSense T265 odometry data** to an Android device.  
+  - Retrieves odometry from T265 camera and transmits via **JSON format**.  
+  - Supports integration with ROS for further processing.  
+  - Enables real-time visualization on Android devices.
+
+
 
 ---
 
