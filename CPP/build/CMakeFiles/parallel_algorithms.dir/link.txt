@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/parallel_algorithms.dir/CPP_17/parallel_algorithms.cpp.o -o parallel_algorithms
