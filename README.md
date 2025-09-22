@@ -35,6 +35,13 @@ This repository highlights my projects and skills across different domains of ro
   Monocular visual odometry in ROS using **feature extraction, tracking, and pose estimation**.  
   Hands-on experience with **camera models and SLAM fundamentals**.  
 
+- **[follow_waypoints](https://github.com/chrissunny94/follow_waypoints)**  
+  Contributed a **PR that got merged** for autonomous waypoint navigation in ROS.  
+  - Buffers `move_base` goals and sequentially navigates through them.  
+  - Enables robots to follow a series of waypoints autonomously.  
+  - Practical for **patrol, inspection, or delivery robot applications**.
+
+
 ---
 
 ## 👁️ Computer Vision (Python)
@@ -48,11 +55,20 @@ This repository highlights my projects and skills across different domains of ro
 
 ---
 
-## ⚡ Embedded / Arduino
 
+## ⚡ Robotics / Embedded Projects / Arduino
 - **[RC_PS3_tractor](https://github.com/chrissunny94/RC_PS3_tractor)**  
   Arduino-based RC tractor controlled via **PS3 controller**.  
   Worked with **serial communication, PWM motor control, and sensors**.  
+
+
+
+- **[ProtoBot](https://github.com/chrissunny94/protobot)**  
+  Educational robot integrating the **Sabertooth 2x32 motor controller** with ROS.  
+  - Dual control: Python scripts or ROS nodes.  
+  - Demonstrates **motor control, ROS integration, and autonomous startup scripts**.  
+  - Ideal for learning embedded robotics and actuator control in real-world robotic platforms.
+
 
 ---
 
