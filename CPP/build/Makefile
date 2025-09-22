@@ -182,19 +182,6 @@ ranges/fast:
 .PHONY : ranges/fast
 
 #=============================================================================
-# Target rules for targets named modules
-
-# Build rule for target.
-modules: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules
-.PHONY : modules
-
-# fast build rule for target.
-modules/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modules.dir/build.make CMakeFiles/modules.dir/build
-.PHONY : modules/fast
-
-#=============================================================================
 # Target rules for targets named coroutines
 
 # Build rule for target.
@@ -327,30 +314,6 @@ CPP_20/coroutines.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coroutines.dir/build.make CMakeFiles/coroutines.dir/CPP_20/coroutines.cpp.s
 .PHONY : CPP_20/coroutines.cpp.s
 
-CPP_20/modules.o: CPP_20/modules.cpp.o
-.PHONY : CPP_20/modules.o
-
-# target to build an object file
-CPP_20/modules.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modules.dir/build.make CMakeFiles/modules.dir/CPP_20/modules.cpp.o
-.PHONY : CPP_20/modules.cpp.o
-
-CPP_20/modules.i: CPP_20/modules.cpp.i
-.PHONY : CPP_20/modules.i
-
-# target to preprocess a source file
-CPP_20/modules.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modules.dir/build.make CMakeFiles/modules.dir/CPP_20/modules.cpp.i
-.PHONY : CPP_20/modules.cpp.i
-
-CPP_20/modules.s: CPP_20/modules.cpp.s
-.PHONY : CPP_20/modules.s
-
-# target to generate assembly for a file
-CPP_20/modules.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modules.dir/build.make CMakeFiles/modules.dir/CPP_20/modules.cpp.s
-.PHONY : CPP_20/modules.cpp.s
-
 CPP_20/ranges.o: CPP_20/ranges.cpp.o
 .PHONY : CPP_20/ranges.o
 
@@ -386,7 +349,6 @@ help:
 	@echo "... concepts"
 	@echo "... coroutines"
 	@echo "... if_constexpr"
-	@echo "... modules"
 	@echo "... ranges"
 	@echo "... std_optional"
 	@echo "... structured_bindings"
@@ -405,9 +367,6 @@ help:
 	@echo "... CPP_20/coroutines.o"
 	@echo "... CPP_20/coroutines.i"
 	@echo "... CPP_20/coroutines.s"
-	@echo "... CPP_20/modules.o"
-	@echo "... CPP_20/modules.i"
-	@echo "... CPP_20/modules.s"
 	@echo "... CPP_20/ranges.o"
 	@echo "... CPP_20/ranges.i"
 	@echo "... CPP_20/ranges.s"

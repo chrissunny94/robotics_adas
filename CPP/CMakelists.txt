@@ -27,8 +27,8 @@ set_target_properties(concepts PROPERTIES CXX_STANDARD 20)
 add_executable(ranges CPP_20/ranges.cpp)
 set_target_properties(ranges PROPERTIES CXX_STANDARD 20)
 
-add_executable(modules CPP_20/modules.cpp)
-set_target_properties(modules PROPERTIES CXX_STANDARD 20)
+#add_executable(modules CPP_20/modules.cpp)
+#set_target_properties(modules PROPERTIES CXX_STANDARD 20)
 
 add_executable(coroutines CPP_20/coroutines.cpp)
 set_target_properties(coroutines PROPERTIES CXX_STANDARD 20)
