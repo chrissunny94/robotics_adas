@@ -109,7 +109,14 @@ This repository highlights my projects and skills across different domains of ro
   - Supports integration with ROS for further processing.  
   - Enables real-time visualization on Android devices.
 
-
+- **[Webdevelopment](https://github.com/chrissunny94/Webdevelopment)**  
+  Collection of **full-stack web development projects**.  
+  - Frontend: HTML, CSS, JavaScript; Backend: PHP.  
+  - Projects include:  
+    - **greenhouse**: Web app for managing greenhouse environments.  
+    - **nlg-wealth**: Financial advisory portal with interactive charts.  
+    - **robo_competition_website**: Platform for managing robotics competitions.  
+    - **scavengerbots.github.io**: Static site for a robotics team.  
 
 ---
 
