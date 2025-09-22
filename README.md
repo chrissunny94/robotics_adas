@@ -25,7 +25,24 @@ This repository highlights my projects and skills across different domains of ro
 
 ---
 
+- **[ros-devcontainer-vscode](https://github.com/chrissunny94/ros-devcontainer-vscode)**  
+  Pre-configured **ROS development environment** using VSCode and Docker.  
+  - Browser-accessible X11 server for Gazebo, RViz, RQT (Windows/Mac compatible).  
+  - Tasks for building packages (`catkin_make`), running `roscore`, and launching RViz.  
+  - Preconfigured **C++, Python, XML code completion** for ROS development.  
+  - Includes simulation environments: Flatland, TurtleBot3, ARIAC, Virtual RobotX, UUV.  
+  - Optional WebIDE (code-server) for cloud-based ROS development.
+
+
+---
+
 ## 🤖 ROS, SLAM & Navigation
+
+- **[example_ros1_package](https://github.com/chrissunny94/example_ros1_package)**  
+  Example ROS1 package demonstrating core ROS features and best practices.  
+  - Publisher/subscriber nodes in **C++ and Python**.  
+  - Service server/client examples and unit tests with **rostest** and Google Test.  
+  - Includes launch files and structured package for learning and testing ROS nodes.
 
 - **[t265_robot_navigation](https://github.com/chrissunny94/t265_robot_navigation)**  
   Navigation stack using **Intel RealSense T265** for **visual-inertial odometry**.  
@@ -41,6 +58,11 @@ This repository highlights my projects and skills across different domains of ro
   - Enables robots to follow a series of waypoints autonomously.  
   - Practical for **patrol, inspection, or delivery robot applications**.
 
+- **[ackerman_ros_robot_gazebo_simulation](https://github.com/chrissunny94/ackerman_ros_robot_gazebo_simulation)**  
+  Gazebo simulation for an **Ackermann-steered robot** using ROS.  
+  - Integrated move_base, gmapping SLAM, and TEB planner for autonomous navigation.  
+  - Custom controllers and visualizations for realistic simulation.  
+  - Ideal for testing path planning, localization, and control algorithms.
 
 ---
 
