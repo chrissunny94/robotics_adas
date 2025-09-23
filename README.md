@@ -35,6 +35,26 @@ This repository highlights my projects and skills across different domains of ro
 
 
 
+## 🕒 Hardware & Sensor Synchronization
+
+This project uses a **Ublox C100** as the **PTP (Precision Time Protocol) master clock** to synchronize all sensors.  
+
+- **Master Clock:** Ublox C100  
+- **Synchronized Sensors:**  
+  - Pandar LiDAR  
+  - EntroN Cameras  
+
+### Benefits
+- Ensures all sensor data has **consistent timestamps** for accurate fusion.  
+- Enables precise **LiDAR + Camera SLAM / Odometry**.  
+- Minimizes motion-induced misalignment in dynamic scenes.  
+
+### Notes
+- Hardware-based PTP is preferred for sub-microsecond accuracy.  
+- Network setup should ideally use a **single PTP-capable switch** to maintain sync.  
+- In ROS 2, messages are timestamped using the **PTP-synced system clock**, ensuring consistent recordings in `rosbag`.
+
+
 ---
 
 ## 🤖 ROS, SLAM & Navigation
