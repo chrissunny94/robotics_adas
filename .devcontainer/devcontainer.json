@@ -1,0 +1,26 @@
+{
+    "name": "Robotics ADAS Dev",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "robotics_adas",
+    "workspaceFolder": "/workspace",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "remoteUser": "root",
+    "features": {
+      "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "postCreateCommand": "apt-get update && rosdep update || true",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.cmake-tools",
+          "twxs.cmake",
+          "ms-python.python",
+          "ms-iot.vscode-ros"
+        ]
+      }
+    }
+  }
+  

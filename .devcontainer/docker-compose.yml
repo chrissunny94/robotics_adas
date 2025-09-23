@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  robotics_adas:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    container_name: robotics_adas_dev
+    volumes:
+      - .:/workspace:cached
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    network_mode: host
