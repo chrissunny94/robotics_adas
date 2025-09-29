@@ -4,7 +4,7 @@ services:
   robotics_adas:
     build:
       context: .
-      dockerfile: .devcontainer/Dockerfile
+      dockerfile: Dockerfile
     container_name: robotics_adas_dev
     volumes:
       - .:/workspace:cached

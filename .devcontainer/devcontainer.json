@@ -1,6 +1,6 @@
 {
     "name": "Robotics ADAS Dev",
-    "dockerComposeFile": ["../docker-compose.yml"],
+    "dockerComposeFile": ["docker-compose.yml"],
     "service": "robotics_adas",
     "workspaceFolder": "/workspace",
     "settings": {
