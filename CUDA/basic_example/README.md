@@ -11,11 +11,17 @@
         - turn our add function into a function that the GPU can run, called a kernel in CUDA. To do this, all I have to do is add the specifier __global__
         - __global__ function is known as a CUDA kernel, and runs on the GPU. Code that runs on the GPU is often called device code, while code that runs on the CPU is host code .
         - To allocate data in unified memory, call cudaMallocManaged(), which returns a pointer that you can access from host (CPU) code or device (GPU) code. To free the data, just pass the pointer to cudaFree().
-        
 
 
 
+# Profile the CUDA code
 
+
+```
+nsys profile -t cuda --stats=true ./build/basic_example_add_cuda 
+```
+
+![](docs/profile_nsys.png)
 
 
 # References
