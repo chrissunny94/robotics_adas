@@ -14,8 +14,9 @@
 
 
 
-# Profile the CUDA code
+## Profile the CUDA code
 
+NSight Systems CLI, `nsys`
 
 ```
 nsys profile -t cuda --stats=true ./build/basic_example_add_cuda 
@@ -23,6 +24,16 @@ nsys profile -t cuda --stats=true ./build/basic_example_add_cuda
 
 ![](docs/profile_nsys.png)
 
+
+## Threads
+
+CUDA’s <<<1, 1>>> syntax
+
+CUDA GPUs run kernels using blocks of threads that are a multiple of 32 in size; 256 threads is a reasonable size to choose.
+
+```
+add<<<1, 256>>>(N, x, y);
+```
 
 # References
 
