@@ -24,16 +24,17 @@ RUN apt-get update && apt-get install -y locales \
  && export LANG=en_US.UTF-8 \
  && apt-get install -y software-properties-common \
  && add-apt-repository universe \
- && apt-get update && apt-get install -y \
-    ros-humble-desktop \
-    python3-rosdep \
-    python3-colcon-common-extensions \
-    python3-argcomplete \
-    && rm -rf /var/lib/apt/lists/*
+ && apt-get update 
 
-# Setup ROS environment
-SHELL ["/bin/bash", "-c"]
-RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc
+# RUN apt-get install -y ros-humble-desktop \
+#     python3-rosdep \
+#     python3-colcon-common-extensions \
+#     python3-argcomplete \
+#     && rm -rf /var/lib/apt/lists/*
+
+# # Setup ROS environment
+# SHELL ["/bin/bash", "-c"]
+# RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc
 
 # Default working directory
 WORKDIR /workspace

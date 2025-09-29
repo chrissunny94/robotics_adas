@@ -2,7 +2,8 @@
     "name": "Robotics ADAS Dev",
     "dockerComposeFile": ["docker-compose.yml"],
     "service": "robotics_adas",
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/home/ws",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/ws,type=bind",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
