@@ -35,6 +35,15 @@ CUDA GPUs run kernels using blocks of threads that are a multiple of 32 in size;
 add<<<1, 256>>>(N, x, y);
 ```
 
+
+## Out of blocks
+
+
+![](docs/outofblocks.png)
+
+## Unified memory prefetching
+
+
 # References
 
 - https://developer.nvidia.com/blog/even-easier-introduction-cuda/
