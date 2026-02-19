@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/structured_bindings.dir/CPP_17/structured_bindings.cpp.o -o structured_bindings
+/usr/bin/c++ CMakeFiles/structured_bindings.dir/CPP_17/structured_bindings.cpp.o -o structured_bindings 
